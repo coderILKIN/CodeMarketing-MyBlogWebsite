@@ -8,6 +8,12 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Josefin Sans;
+    font-weight: 400;
+}
+
+
 .contact-main {
     width: 80%;
     max-width: 1200px;
