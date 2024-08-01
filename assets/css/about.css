@@ -63,3 +63,46 @@ body {
 .about-text .last {
     margin-bottom: 25px;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+    main{
+        margin: 50px 0px;
+    }
+
+    .main-container img{
+        width: 920px;
+        height: 520px;
+        object-fit: cover;
+
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .main-container img{
+        width: 690px;
+        height: 388px;
+        object-fit: cover;
+
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  
+    .main-container img{
+        width: 510px;
+        height: 286px;
+        object-fit: cover;
+
+    }
+
+    .about-text{
+        width: 510px;
+        font-size: 16px;
+    }
+}
+
